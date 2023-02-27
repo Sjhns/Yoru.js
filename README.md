@@ -1,8 +1,8 @@
-<p aling="center" width="100%">
+<p align="center" width="100%">
 <img src="./yorujs.png" width="200px" height="200px" >
 </p>
 
-<h1 aling="center"> Yoru.js </h1>
+<h1 align="center"> Yoru.js </h1>
 
 Yoru.js é um terminal personalizado que utiliza a tecnologia de [web container](https://webcontainers.io) para oferecer uma experiência de desktop em um ambiente de linha de comando na web. Com Yoru.js, você pode executar códigos JavaScript diretamente no navegador em um ambiente de linha de comando intuitivo e fácil de usar.
 
@@ -33,7 +33,7 @@ A tecnologia de web container permite que Yoru.js seja especialmente útil para 
 ## Desenvolvimento de Aplicações
 Yoru.js tem como objetivo fornecer uma plataforma de terminal flexível e extensível para o desenvolvimento de aplicativos JavaScript na web. Embora atualmente esteja em desenvolvimento, planejamos adicionar a funcionalidade de desenvolvimento de aplicativos em uma futura atualização.
 
-Como exemplo de aplicação, você pode conferir o projeto de exemplo na pasta api-express-example. Para executar o projeto de exemplo, basta entrar na pasta do projeto e executar o comando `npm install` para instalar todas as dependências e depois `npm run dev` para executar o servidor.
+Como exemplo de aplicação, você pode conferir o projeto de exemplo na pasta `api-express`. Para executar o projeto de exemplo, basta entrar na pasta do projeto e executar o comando `npm install` para instalar todas as dependências e depois `npm run start` para executar o servidor.
 
 Esteja ciente de que, embora esses recursos não estejam disponíveis no momento, estamos trabalhando duro para tornar Yoru.js uma plataforma de desenvolvimento JavaScript completa e poderosa na web.
 
