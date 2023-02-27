@@ -18,7 +18,7 @@ Yoru.js é um terminal personalizado que utiliza a tecnologia de [web container]
 
 ## Instalação
 
-Para utilizar o Yoru.js, você precisa apenas abrir o terminal em seu navegador, clicando no link a seguir: [Yoru.js]().
+Para utilizar o Yoru.js, você precisa apenas abrir o terminal em seu navegador, clicando no link a seguir: [Yoru.js](https://yoru-js.vercel.app).
 
 ## Como usar
 
