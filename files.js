@@ -65,9 +65,7 @@ export const files = {
             res.send('Bem-vindo ao Yuro.js 🔥');
           });
           
-          app.listen(port, () => {
-            console.log(\`App is live at http://localhost:\${port}\`);
-          });`,
+          app.listen(port);`,
         },
       },
       'package.json': {

@@ -1,3 +1,4 @@
+/* eslint-disable require-jsdoc */
 import './style.css';
 import {WebContainer} from '@webcontainer/api';
 import {files} from './files';
@@ -17,17 +18,13 @@ window.addEventListener('load', async () => {
   terminal.loadAddon(fitAddon);
   terminal.open(terminalEl);
 
-
   fitAddon.fit();
-
 
   webcontainerInstance = await WebContainer.boot();
 
   await webcontainerInstance.mount(files);
 
-
   const shellProcess = await startShell(terminal);
-
 
   window.addEventListener('resize', () => {
     fitAddon.fit();
@@ -37,7 +34,6 @@ window.addEventListener('load', async () => {
     });
   });
 });
-
 
 async function startShell(terminal) {
   const shellProcess = await webcontainerInstance.spawn('jsh', {
@@ -61,15 +57,18 @@ async function startShell(terminal) {
     input.write(data);
   });
 
+  webcontainerInstance.on(
+      'server-ready',
+      (port, url) =>
+        terminal.write(`Server running on ${url}`),
+  );
 
   return shellProcess;
 }
 
-
 document.querySelector('#app').innerHTML = `
   <div class="terminal"></div>
 `;
-
 
 /** @type {HTMLTextAreaElement | null} */
 const terminalEl = document.querySelector('.terminal');
