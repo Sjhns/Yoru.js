@@ -70,7 +70,6 @@ document.querySelector('#app').innerHTML = `
   <div class="terminal"></div>
 `;
 
-Atomics.wait = function() { };
 
 /** @type {HTMLTextAreaElement | null} */
 const terminalEl = document.querySelector('.terminal');
