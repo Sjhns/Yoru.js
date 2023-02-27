@@ -43,6 +43,6 @@ Se você deseja contribuir com o Yoru.js, sinta-se à vontade para fazer um fork
 
 ---- 
 
-<p>
+<small>
 Gostou da Yoru.js? Deixe uma estrela no nosso repositório para nos ajudar a crescer e melhorar a plataforma! Também apreciamos feedback e contribuições de todos os tipos. Obrigado por usar Yoru.js!
-<p>
+<small>
