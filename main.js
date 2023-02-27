@@ -57,7 +57,7 @@ async function startShell(terminal) {
     input.write(data);
   });
 
-  webcontainerInstance.on(
+  awaitwebcontainerInstance.on(
       'server-ready',
       (port, url) =>
         terminal.write(`Server running on ${url}`),
